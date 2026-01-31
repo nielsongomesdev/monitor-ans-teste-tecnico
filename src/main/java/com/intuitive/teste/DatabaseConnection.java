@@ -98,10 +98,7 @@ public class DatabaseConnection {
         }
     }
 
-    public static void shutdown() {
-        try {
-            com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkedShutdown();
-        } catch (Exception e) {
-        }
+public static void shutdown() {
+        System.out.println("🔌 Shutdown ignorado (gerenciado pelo Spring/Parser).");
     }
 }
