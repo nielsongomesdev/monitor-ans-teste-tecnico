@@ -56,7 +56,7 @@ Conforme solicitado no desafio, abaixo estão as justificativas para as escolhas
 ### 2. Frontend: Vue.js (Modo CDN)
 * **Decisão:** Vue.js 3 importado via `<script>` diretamente no HTML.
 * **Justificativa:** Cumpre o requisito de interface web sem adicionar complexidade de build (Webpack/Vite) para o avaliador. Basta ter o Java instalado para rodar o sistema completo.
-* **UX/UI:** Identidade visual fiel à marca (**Roxo Intuitive**) e uso de *tooltips* para melhor visualização de dados longos.
+* **UX/UI:** Uso de *tooltips* para melhor visualização de dados longos.
 
 ### 3. Testes e Qualidade
 * **Testes Unitários:** Implementação de **JUnit 5** para a classe `MathUtils`, garantindo que conversões monetárias críticas e tratamentos de nulos funcionem sem falhas.
